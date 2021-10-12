@@ -1,0 +1,33 @@
+/* universal selector - sets a style for everything on the page */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* element selector - applies to specific HTML elements */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* class selector - can be appled to multiple different parts or elements that have this class as a class attribute */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* id selector - applies to the one element that has this id */
+#contact-section {
+  background-color: #f0ead6;
+}
